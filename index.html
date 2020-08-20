@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Demo </title>
+            <style>
+                .container{
+                    display: flex;
+                    justify-content:space-evenly ;
+                }
+                h2{
+                    text-align: center;
+                }
+                .second{
+                    margin-top: 30px;
+                }
+            </style>
+    </head>
+
+    <body>
+      <div class="container">  
+<div class="first">
+        <img src="./images/download.jpg" class="wizard" >
+        <h2>TextWizard <span style="color:green">On</span></h2>
+    </div>
+
+<div class="second">
+<img src="./images/full.jpg" class="" style="justify-items: center;object-fit: contain;margin-left: 30px;">
+<h2>TextWizard <span style="color:red;">Off</span></h2>
+</div>
+</div>
+<h1 id="wizard-to-provide-a-shadow-to-your-div">wizard to provide a shadow to your div</h1>
+<p><code>npm i wizard --save</code></p>
+<h1 id="options">Options</h1>
+<ol style="list-style-type: decimal">
+<li><p>type =&gt; hard | soft</p></li>
+<li><p>padding =&gt; 0 | 1</p></li>
+</ol>
+<h1 id="how-to-use">how to use ?</h1>
+<p>``` import {wizard} from wizard ; wizard({ type:'soft', padding:false });</p>
+<p>```</p>
+
+check the code <a href="https://github.com/kumarnitesh2000/wizard-package" target="_blank">here</a>
+
+<script src="./index.js">
+
+</script>
+    </body>
+</html>
